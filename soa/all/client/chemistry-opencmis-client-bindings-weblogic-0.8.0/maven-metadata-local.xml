@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.oracle.soa.all.client</groupId>
+  <artifactId>chemistry-opencmis-client-bindings-weblogic-0.8.0</artifactId>
+  <versioning>
+    <release>12.2.1-1-0</release>
+    <versions>
+      <version>12.2.1-1-0</version>
+    </versions>
+    <lastUpdated>20171212133305</lastUpdated>
+  </versioning>
+</metadata>

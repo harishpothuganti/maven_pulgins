@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.soa</groupId>
+  <artifactId>sar-common</artifactId>
+  <version>12.2.1-0-0</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>com.oracle.maven</groupId>
+    <artifactId>oracle-common</artifactId>
+    <version>12.2.1-1-0</version>
+    <relativePath></relativePath>
+  </parent>
+
+  <properties>
+    <!--
+    These two properties are defined in com.oracle.maven:oracle-common, you can overwrite them here.
+    Users who do not want to add plain text password in their properties or pom file, should use the userConfigFile
+    and userKeyFile options for deployment.
+
+    <oracleUsername>USERNAME</oracleUsername>
+    <oraclePassword>PASSWORD</oraclePassword>
+    -->
+
+    <!-- Change the default values according to your environment -->
+    <oracleServerUrl>http://localhost:7003</oracleServerUrl>
+    <oracleServerName>soa_server1</oracleServerName>
+    <oracleMiddlewareHome>/home/myhome/Oracle/Middleware</oracleMiddlewareHome>
+  </properties>
+</project>

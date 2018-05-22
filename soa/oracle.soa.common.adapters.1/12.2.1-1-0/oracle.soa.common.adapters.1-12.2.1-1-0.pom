@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.oracle.soa</groupId>
+    <artifactId>oracle.soa.common.adapters.1</artifactId>
+    <packaging>pom</packaging>
+    <version>12.2.1-1-0</version>
+    <description>SOA</description>
+    <url>http://www.oracle.com/us/products/middleware/cloud-app-foundation/index.html</url>
+    <inceptionYear>1997</inceptionYear>
+    <organization>
+        <name>Oracle America, Inc.</name>
+        <url>http://www.oracle.com</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>
+    The "Oracle Technology Network License Agreement - Oracle
+    Maven Repository" is the license for this Project Object
+    Model (POM) file and the associated software and documentation
+    unless you have accepted or agreed to different license terms
+    with Oracle when you obtained the right to use the POM file,
+    software and documentation.  Please refer to the comments below
+    for additional information.
+   </name>
+            <url>https://www.oracle.com/webapps/maven/register/license.html</url>
+            <distribution>repo</distribution>
+            <comments>
+    Copyright (c) 2014, 2015, Oracle and/or its affiliates. All rights
+    reserved.
+    
+    This Project Object Model (POM) file and the associated software and
+    documentation are provided under a license agreement containing
+    restrictions on use and disclosure and are protected by intellectual
+    property laws. You acknowledge that your use of this POM file and the
+    associated software and documentation is subject to the license terms
+    that you accepted or agreed to when you obtained the right to use the
+    POM file, software and documentation. In the event you have not
+    accepted or agreed to any such license terms, you cannot use this
+    POM file or the associated software and documentation without first
+    accepting the Oracle Technology Network License Agreement - Oracle
+    Maven Repository terms and conditions set forth at the above-listed
+    URL.
+
+    Except as expressly permitted in your license agreement or allowed
+    by law, you may not:
+
+    - use, copy, reproduce, translate, broadcast, modify, license,
+    transmit, distribute, exhibit, perform, publish, or display any part,
+    in any form, or by any means, the POM file or the associated software
+    or documentation; and
+
+    - deploy the POM file or the associated software or documentation to
+    any Maven or other repositories except for your local Maven repository
+    that is not accessible to any third party (other than contractors
+    acting on your behalf if expressly permitted in your license
+    agreement), including but not limited to the Maven Central Repository
+    or any other public Maven repository.
+
+    Reverse engineering, disassembly, or decompilation of this software,
+    unless required by law for interoperability, is prohibited.
+
+    Additional Notices
+
+    The information contained herein is subject to change without notice
+    and is not warranted to be error-free. If you find any errors, please
+    report them to us in writing.
+
+    If this is software or related documentation that is delivered to the
+    U.S. Government or anyone licensing it on behalf of the
+    U.S. Government, the following notice is applicable:
+
+    U.S. GOVERNMENT END USERS: Oracle programs, including any operating
+    system, integrated software, any programs installed on the hardware,
+    and/or documentation, delivered to U.S. Government end users are
+    "commercial computer software" pursuant to the applicable Federal
+    Acquisition Regulation and agency-specific supplemental regulations.
+    As such, use, duplication, disclosure, modification, and adaptation
+    of the programs, including any operating system, integrated software,
+    any programs installed on the hardware, and/or documentation, shall be
+    subject to the license terms and license restrictions applicable to the
+    programs. No other rights are granted to the U.S. Government.
+
+    Oracle and Java are registered trademarks of Oracle and/or its
+    affiliates. Other names may be trademarks of their respective owners.
+
+    This software or hardware and documentation may provide access to or
+    information about content, products, and services from third parties.
+    Oracle Corporation and its affiliates are not responsible for and
+    expressly disclaim all warranties of any kind with respect to
+    third-party content, products, and services unless otherwise set
+    forth in an applicable agreement between you and Oracle. Oracle
+    Corporation and its affiliates will not be responsible for any loss,
+    costs, or damages incurred due to your access to or use of third-party
+    content, products, or services, except as set forth in an applicable
+    agreement between you and Oracle.
+   </comments>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>AqAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>FileAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-designtime-api</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.dvmxref</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle-soa-client-api</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>adapter_xbeans</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>SocketAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>JDEWorldAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.cloud.storage.api-13.0.0</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>maverick-all-1.4.44</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>common-functions</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.adapters.reconfig_template_12.2.1</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.commonconsole.dependencies</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.functions</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>hcmcloudadapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.resequencer</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>MQSeriesAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>UMSAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>salesforce</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-designtime-impl</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.adapter.ext</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>jca-binding-osb</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.tools.utils</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.cloud.messaging.api-13.1.0</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>jca-binding-api</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>sca-diagramxbean</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>NetsuiteCloudAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>rightnow</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>adapter-reports-mbeans</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>AppsAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>SiebelAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.adapters</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>resequencer</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-connectivity-services</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>SiebelAdapter.1</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.common.adapters.reconfig_template_12.2.1.1.0</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-runtime-impl</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.cloud.adapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-runtime-api</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>tracking-business</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.bpm.mapper.automap</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>storagecs</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>maverick-all</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>OracleBamAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>EloquaCloudAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>LdapAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>CoherenceAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>MSMQAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>OSCCloudAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>erpcloudadapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>SAPAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>JmsAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.bpm.mapper.api</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>dvm-xref</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>cloud-connectivity-persistence</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>FtpAdapter</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>rar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.soa</groupId>
+            <artifactId>oracle.soa.tools.utils.xml</artifactId>
+            <version>[12.2.1,12.2.2)</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+</project>
